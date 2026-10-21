@@ -63,6 +63,21 @@ li {
    text-shadow: 0 0 8px rgb(23, 171, 191);
    text-decoration: underline;
 }
+.all{
+  text-decoration:none;
+  color: rgb(157, 17, 228);
+  font-weight: 500;
+  font-size: 22px;
+    transition: 0.3s ease;
+  transform: rotate(5deg);
+}
+.all:hover{
+  transform: rotate(0deg);
+   color: rgb(243, 236, 247);
+   text-shadow: 0 0 8px rgb(23, 171, 191);
+   text-decoration: underline;
+}
+
 
 .nav_box {
   display: flex;
@@ -1402,5 +1417,613 @@ background-attachment: fixed;
   .gc-btn {
     width: 40px;
     height: 40px;
+  }
+}
+
+
+
+
+
+
+
+
+/* From Uiverse.io by gharsh11032000 */ 
+.form-container {
+  width: 500px;
+  background: linear-gradient(#212121, #212121) padding-box,
+              linear-gradient(145deg, transparent 0%,#e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+
+}
+.form-container:hover{
+    transform: translatey(-15px);
+  transition: 1s;
+  box-shadow: 0px 0px 35px #ae34d3;
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff7f7;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid #414141;
+}
+
+.form-container .form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  resize: none;
+  color: #fff;
+  height: 96px;
+  border: 1px solid #414141;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+  border-color: #e81cff;
+}
+
+.form-container .form-group textarea:focus {
+  outline: none;
+  border-color: #e81cff;
+}
+
+.form-container .form-submit-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: flex-start;
+  font-family: inherit;
+  color: #ffffff;
+  font-weight: 600;
+  width: 40%;
+  background: #9909dc;
+  border: 1px solid #414141;
+  padding: 12px 16px;
+  font-size: inherit;
+  gap: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: #fff;
+  border-color: #070606;
+  color: #000;
+}
+
+
+.connect_title{
+  color: white;
+  font-weight: 700;
+  font-size: 70px;
+}
+.connect_wrapper{
+  display: flex;
+  
+  justify-content: space-between;
+}
+.b{
+  color: rgb(142, 17, 180);
+  font-weight: 700;
+  font-size: 80px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by Centered101 */ 
+.cardes {
+  width: 280px;
+  height: 280px;
+  background: white;
+  border-radius: 32px;
+  padding: 3px;
+  position: relative;
+  box-shadow: #604b4a30 0px 70px 30px -50px;
+  transition: all 0.5s ease-in-out;
+  border: 5px solid purple;
+}
+
+.cardes .mail {
+  position: absolute;
+  right: 2rem;
+  top: 1.4rem;
+  background: transparent;
+  border: none;
+}
+
+.cardes .mail svg {
+  stroke: #d079ec;
+  stroke-width: 3px;
+}
+
+.cardes .mail svg:hover {
+  stroke: #c356f5;
+}
+
+.cardes .profile-pic {
+  position: absolute;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  top: 3px;
+  left: 3px;
+  border-radius: 29px;
+  z-index: 1;
+  border: 0px solid #dfb6fb;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out 0.2s, z-index 0.5s ease-in-out 0.2s;
+}
+
+.cardes .profile-pic img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -o-object-position: 0px 0px;
+  object-position: 0px 0px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.cardes .profile-pic svg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 0px 0px;
+  object-position: 0px 0px;
+  transform-origin: 45% 20%;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.cardes .bottom {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  background: #b769d5;
+  top: 80%;
+  border-radius: 29px;
+  z-index: 2;
+  box-shadow: rgba(96, 75, 74, 0.1882352941) 0px 5px 5px 0px inset;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.cardes .bottom .content {
+  position: absolute;
+  bottom: 0;
+  left: 1.5rem;
+  right: 1.5rem;
+  height: 160px;
+}
+
+.cardes .bottom .content .name {
+  display: block;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.cardes .bottom .content .about-me {
+  display: block;
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+.cardes .bottom .bottom-bottom {
+  position: absolute;
+  bottom: 1rem;
+  left: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardes .bottom .bottom-bottom .social-links-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.cardes .bottom .bottom-bottom .social-links-container svg {
+  height: 20px;
+  fill: white;
+  filter: drop-shadow(0 5px 5px rgba(165, 132, 130, 0.1333333333));
+}
+
+.cardes .bottom .bottom-bottom .social-links-container svg:hover {
+  fill: #5b56f5;
+  transform: scale(1.2);
+}
+
+.cardes .bottom .bottom-bottom .button {
+  background: rgb(255, 253, 255);
+  color: #cc82f1;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.6rem;
+  padding: 0.4rem 0.6rem;
+  box-shadow: rgba(165, 132, 130, 0.1333333333) 0px 5px 5px 0px;
+}
+
+.cardes .bottom .bottom-bottom .button:hover {
+  background: #82098b;
+  color: white;
+}
+
+.cardes:hover {
+  border-top-left-radius: 55px;
+}
+
+.cardes:hover .bottom {
+  top: 20%;
+  border-radius: 80px 29px 29px 29px;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+}
+
+.cardes:hover .profile-pic {
+  width: 100px;
+  height: 100px;
+  aspect-ratio: 1;
+  top: 10px;
+  left: 10px;
+  border-radius: 50%;
+  z-index: 3;
+  border: 7px solid #9812b6;
+  box-shadow: rgba(96, 75, 74, 0.1882352941) 0px 5px 5px 0px;
+  transition: all 0.5s ease-in-out, z-index 0.5s ease-in-out 0.1s;
+}
+
+.cardes:hover .profile-pic:hover {
+  transform: scale(1.3);
+  border-radius: 0px;
+}
+
+.cardes:hover .profile-pic img {
+  transform: scale(2.5);
+  -o-object-position: 0px 25px;
+  object-position: 0px 25px;
+  transition: all 0.5s ease-in-out 0.5s;
+}
+
+.cardes:hover .profile-pic svg {
+  transform: scale(2.5);
+  transition: all 0.5s ease-in-out 0.5s;
+}
+.about-me{
+  font-size: 22px;
+}
+
+
+.startt{
+  text-decoration: none;
+}
+
+
+
+
+
+.amin-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  padding: 45px;
+  background: #211b2d94;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(198, 9, 176, 0.507);
+  
+}
+
+.amin-contact * {
+  box-sizing: border-box;
+}
+
+.amin-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.amin-badge {
+  padding: 8px 16px;
+  margin-bottom: 22px;
+  color: #e5caff;
+  background: linear-gradient(
+    90deg,
+    #422078,
+    #50203e
+  );
+  border: 1px solid #6840a0;
+  border-radius: 30px;
+  font-size: 12px;
+}
+
+.amin-left h2 {
+  margin: 0;
+  font-size: clamp(36px, 4vw, 54px);
+  line-height: 1.08;
+  letter-spacing: -1.5px;
+}
+
+.amin-left h2 span {
+  color: #a34bff;
+  background: linear-gradient(
+    90deg,
+    #743cff,
+    #ee36ad
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.amin-intro {
+  max-width: 450px;
+  margin: 22px 0 45px;
+  color: #b8b3c1;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.amin-info {
+  width: 100%;
+  margin-top: auto;
+  padding: 25px;
+  background: rgba(15, 14, 24, 0.8);
+  border: 1px solid #26212f;
+  border-radius: 18px;
+}
+
+.amin-info h3,
+.amin-form-box h3 {
+  margin: 0 0 22px;
+  font-size: 21px;
+}
+
+.amin-info-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 17px;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.25s ease;
+}
+
+.amin-info-item:hover {
+  transform: translateX(5px);
+}
+
+.amin-icon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #753dff, #f02c9e);
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.amin-info-item strong,
+.amin-info-item small {
+  display: block;
+}
+
+.amin-info-item strong {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.amin-info-item small {
+  color: #aaa4b7;
+  font-size: 12px;
+}
+
+.amin-form-box {
+  padding: 32px;
+  background: #0a0910;
+  border: 1px solid #211d2a;
+  border-radius: 18px;
+}
+
+.amin-form-box h3 {
+  margin-bottom: 25px;
+}
+
+.amin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.amin-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  color: #eeeaf4;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.amin-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.amin-form input:not([type="checkbox"]),
+.amin-form select,
+.amin-form textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 13px;
+  color: #fff;
+  background: #17151e;
+  border: 1px solid #2c2736;
+  border-radius: 10px;
+  outline: none;
+  font: inherit;
+  font-size: 13px;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.amin-form input::placeholder,
+.amin-form textarea::placeholder {
+  color: #827d8d;
+}
+
+.amin-form select {
+  color-scheme: dark;
+}
+
+.amin-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.amin-form input:focus,
+.amin-form select:focus,
+.amin-form textarea:focus {
+  border-color: #a04cff;
+  box-shadow: 0 0 0 3px rgba(144, 65, 255, 0.12);
+}
+
+.amin-form .amin-consent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  color: #aaa4b7;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.amin-consent input {
+  margin-top: 3px;
+  accent-color: #a34bff;
+}
+
+.amin-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #713cff, #f02b9d);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.amin-submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(176, 52, 255, 0.3);
+}
+
+.amin-status {
+  margin: 0;
+  color: #c9b1ff;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+@media (max-width: 850px) {
+  .amin-contact {
+    grid-template-columns: 1fr;
+    padding: 28px;
+    gap: 35px;
+  }
+
+  .amin-intro {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .amin-contact {
+    padding: 20px 14px;
+    gap: 25px;
+  }
+
+  .amin-left h2 {
+    font-size: 38px;
+  }
+
+  .amin-form-box {
+    padding: 20px 14px;
+  }
+
+  .amin-form-row {
+    grid-template-columns: 1fr;
+    gap: 19px;
+  }
+
+  .amin-info {
+    padding: 18px;
   }
 }

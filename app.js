@@ -190,3 +190,44 @@ updateBook();
 
 
 
+
+(() => {
+  const aminSection = document.querySelector("#amin-contact");
+
+  if (!aminSection) return;
+
+  const aminForm = aminSection.querySelector(".amin-form");
+  const aminStatus = aminSection.querySelector(".amin-status");
+
+  aminForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    if (!aminForm.reportValidity()) return;
+
+    const aminData = new FormData(aminForm);
+
+    const aminFirst = aminData.get("firstName").trim();
+    const aminLast = aminData.get("lastName").trim();
+    const aminEmail = aminData.get("email").trim();
+    const aminSubject = aminData.get("subject");
+    const aminMessage = aminData.get("message").trim();
+
+    // O'zingning haqiqiy emailingni yoz
+    const aminReceiver = "YOUR_EMAIL@gmail.com";
+
+    const aminBody =
+      `Name: ${aminFirst} ${aminLast}\n` +
+      `Email: ${aminEmail}\n\n` +
+      `Message:\n${aminMessage}`;
+
+    const aminMailto =
+      `mailto:${aminReceiver}` +
+      `?subject=${encodeURIComponent(aminSubject)}` +
+      `&body=${encodeURIComponent(aminBody)}`;
+
+    aminStatus.textContent =
+      "Email dasturi ochilmoqda...";
+
+    window.location.href = aminMailto;
+  });
+})();
