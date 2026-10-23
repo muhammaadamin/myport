@@ -61,7 +61,7 @@ li {
   transform: rotate(0deg);
   color: rgb(136, 0, 255);
   text-shadow: 0 0 8px rgb(23, 171, 191);
-  text-decoration: underline;
+  
 }
 .all {
   text-decoration: none;
