@@ -1209,7 +1209,7 @@ button:hover {
 }
 
 .gc {
-  max-width: 700px;
+  max-width: 900px;
   margin: 40px auto 70px;
   padding: 0 16px;
   position: relative;
@@ -1251,7 +1251,7 @@ button:hover {
 .gc-media {
   position: relative;
   height: 62%;
-  overflow: hidden;
+  overflow: hidden;   
 }
 .gc-media img {
   width: 100%;
@@ -1303,6 +1303,7 @@ button:hover {
   color: #b9c7bd;
   font-size: 0.95rem;
 }
+
 
 #gc1:checked ~ .gc-card .gc-slide:nth-child(1),
 #gc2:checked ~ .gc-card .gc-slide:nth-child(2),
