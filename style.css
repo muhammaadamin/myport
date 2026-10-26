@@ -1138,7 +1138,7 @@ button:hover {
   justify-content: space-around;
 }
 .img_one {
-  width: 600px;
+  width: 100%;
   border-radius: 10px;
 }
 .project_one {
@@ -1147,6 +1147,7 @@ button:hover {
   color: white;
   border: 1px solid purple;
   width: 600px;
+  
 }
 .title_project {
   font-weight: 700;
@@ -1209,7 +1210,7 @@ button:hover {
 }
 
 .gc {
-  max-width: 900px;
+  max-width: 800px;
   margin: 40px auto 70px;
   padding: 0 16px;
   position: relative;
@@ -1286,12 +1287,17 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  align-items: center;
 }
 .gc-tag {
   color: #7e0996;
-  font-size: 0.75rem;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 700;
   letter-spacing: 3px;
+}
+.gc-h3{
+  font-weight: 600;
+  font-size: 30px;
 }
 .gc-body h3 {
   margin: 0;
