@@ -1146,8 +1146,21 @@ button:hover {
   border-radius: 10px;
   color: white;
   border: 1px solid purple;
-  width: 600px;
+  width: 500px;
   
+  
+}
+.project_two{
+   background-color: rgb(35, 7, 35);
+  border-radius: 10px;
+  color: white;
+  border: 1px solid purple;
+  width: 500px;
+  margin-bottom: 30px;
+}
+.img_two{
+  width: 100%;
+  border-radius: 10px;
 }
 .title_project {
   font-weight: 700;
@@ -1183,8 +1196,20 @@ button:hover {
   box-shadow: 0 4px 6px rgba(209, 12, 235, 0.974);
   position: relative;
 }
+.project_two {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(209, 12, 235, 0.974);
+  position: relative;
+}
 
 .link:hover .project_one {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 26px rgba(216, 8, 216, 0.599);
+  z-index: 10;
+}
+.link:hover .project_two {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 15px 26px rgba(216, 8, 216, 0.599);
   z-index: 10;
