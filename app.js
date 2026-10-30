@@ -1,9 +1,9 @@
 const teamMembers = [
 	{ name: "Adajonim ", role: " ismlari Komil yoshlari 43 da kasblari sanatkor" },
 	{ name: "Onajonim", role: "ismlari dilafruz yoshlari 38 da " },
-	{ name: "Opam", role: "ismlari Muslima yoshlari 17 da 11 sinifda o'qidilar" },
-	{ name: "Ukam", role: "ismi Muhammadyusuf yoshi 13 da 8 sinifda o'qidi" },
-	{ name: "Man", role: "ismim Muhammadamin yoshim 16 da 10 sinifda o'qiman" },
+	{ name: "Opam", role: "ismlari Muslima yoshlari 17 da 11 sinfda o'qidilar" },
+	{ name: "Ukam", role: "ismi Muhammadyusuf yoshi 13 da 8 sinfda o'qidi" },
+	{ name: "Man", role: "ismim Muhammadamin yoshim 16 da 10 sinfda o'qiman" },
 	// { name: "James Wilson", role: "Product Manager" }
 ];
 
