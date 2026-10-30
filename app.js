@@ -1,5 +1,5 @@
 const teamMembers = [
-	{ name: "Adajonim ", role: " ismlari Komil yoshlari 43 da kasiblari sanatkor" },
+	{ name: "Adajonim ", role: " ismlari Komil yoshlari 43 da kasblari sanatkor" },
 	{ name: "Onajonim", role: "ismlari dilafruz yoshlari 38 da " },
 	{ name: "Opam", role: "ismlari Muslima yoshlari 17 da 11 sinifda o'qidilar" },
 	{ name: "Ukam", role: "ismi Muhammadyusuf yoshi 13 da 8 sinifda o'qidi" },
